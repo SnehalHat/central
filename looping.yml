@@ -7,7 +7,7 @@
      user:
        name: '{{ item.name }}'
        uid: '{{ item.uid }}'
-       state: present
+       state: absent
      loop:
        - name: harry
          uid: 2000
